@@ -1,0 +1,20 @@
+@use '../abstracts/' as *;
+
+.btn {
+    cursor: pointer;
+    background-color: $btn-bg-clr;
+    color: $btn-txt-clr;
+    font-size: $btn-fs;
+    font-weight: $btn-fw;
+    padding: $btn-padding;
+    border: 1px solid transparent;
+    border-radius: $btn-border-radius;
+    &:hover,
+    &:focus {
+        background-color: $primary-500;
+    }
+    &:active {
+        background-color: $primary-500;
+        color: $grey;
+    }
+}

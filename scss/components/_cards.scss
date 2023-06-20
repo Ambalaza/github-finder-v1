@@ -1,0 +1,11 @@
+@use '../abstracts/' as *;
+
+
+.card {
+    background-color: $white;
+}
+
+.vertical-line {
+    border-right: 1px solid $black;
+    padding-right: $size-5;
+}

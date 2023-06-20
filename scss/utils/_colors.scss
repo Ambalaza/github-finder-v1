@@ -1,0 +1,29 @@
+@use '../abstracts/colors' as *;
+
+.clr-primary {
+    color: $primary-clr;
+}
+
+.clr-black {
+    color: $black;
+}
+
+.clr-white {
+    color: $white;
+}
+
+.clr-muted {
+    color: $grey;
+}
+
+.clr-danger {
+    color: $danger;
+}
+
+.clr-success {
+    color: $success;
+}
+
+.bg-clr {
+    background-color: $bg-clr;
+}

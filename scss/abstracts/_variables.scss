@@ -1,0 +1,39 @@
+@use './typography' as *;
+@use './colors' as *;
+@use './sizing' as *;
+
+//spacing
+$space-base: 1rem;
+
+$space-1: calc(0.5 * $space-base); 
+$space-2: calc(0.75 * $space-base);
+$space-3: calc(1.25 * $space-base);
+$space-4: calc(2 * $space-base);
+$space-5: calc(3.25 * $space-base);
+$space-6: calc(4.5 * $space-base);
+
+//border radius
+$border-radius-1: $size-3;
+$border-radius-2: $size-5;
+$border-rounded: 50%;
+
+//input
+$input-fs: $size-4;
+$input-fw: $fw-400;
+$input-bg-clr: $white;
+$input-txt-clr: $grey;
+$input-border-radius: $size-1 $size-1 0 0;
+$input-padding: $size-2 $size-3;
+$input-border-bottom: 2px $primary-clr;
+$input-focus-hover-active: 4px $primary-clr;
+
+//button
+$btn-fs: $size-4;
+$btn-fw: $fw-700;
+$btn-bg-clr: $primary-clr;
+$btn-txt-clr: $white;
+$btn-border-radius: $border-radius-1;
+$btn-padding: $size-2 $size-8;
+
+//header
+$header-alignment: center;
